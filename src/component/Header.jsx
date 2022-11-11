@@ -37,9 +37,9 @@ const Header = () => {
       <div
         className={`${
           isOpen
-            ? "flex flex-col absolute pt-4  w-full h-screen right-0 top-full "
+            ? "flex flex-col absolute pt-4 bg-white z-50  w-full h-screen right-0 top-full "
             : "hidden"
-        } md:flex md:items-center md:justify-evenly  md:flex-1 md:-mr-24`}
+        } md:flex md:items-center md:justify-evenly  md:flex-1 md:-mr-20 xl:-mr-44`}
       >
         <nav className="flex flex-col md:flex-row items-center gap-6 xl:gap-12 ">
           {NAV_ITEMS.map(({ title, path }) => (
