@@ -10,7 +10,7 @@ const Header = () => {
     { title: "Community", path: "/" },
   ];
   return (
-    <header className="flex justify-between items-center lg:pt-11">
+    <header className="flex justify-between items-center lg:pt-11 xl:px-[100px]">
       <div className="flex items-end gap-[2px]">
         <img src={homeIcon} alt="home icon" className="w-10 h-9" />
         <img src={metabnbLogo} alt="metabnb Logo" className="h-8" />
