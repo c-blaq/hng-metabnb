@@ -3,7 +3,7 @@ import Header from "../component/Header";
 
 const PageLayout = ({ children }) => {
   return (
-    <div className=" max-w-[1440px]">
+    <div className=" max-w-[1440px] mx-auto">
       <Header />
       <main>{children}</main>
     </div>
