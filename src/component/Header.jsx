@@ -10,20 +10,24 @@ const Header = () => {
     { title: "Community", path: "/" },
   ];
   return (
-    <header>
-      <div>
-        <img src={homeIcon} alt="home icon" />
-        <img src={metabnbLogo} alt="metabnb Logo" />
+    <header className="flex justify-between items-center lg:pt-11">
+      <div className="flex items-end gap-[2px]">
+        <img src={homeIcon} alt="home icon" className="w-10 h-9" />
+        <img src={metabnbLogo} alt="metabnb Logo" className="h-8" />
       </div>
 
-      <nav>
+      <nav className="flex gap-12">
         {NAV_ITEMS.map(({ title, path }) => (
-          <a href={path}>{title}</a>
+          <a href={path} className="text-xl">
+            {title}
+          </a>
         ))}
       </nav>
 
       <div>
-        <button>Connect wallet</button>
+        <button className="lg:px-[26.5px] rounded-[10px] lg:py-[14px] bg-linear-gradient">
+          Connect wallet
+        </button>
       </div>
     </header>
   );
