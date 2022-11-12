@@ -1,12 +1,17 @@
 import React from "react";
-import star from "../assets/images/star.png";
 
-const NftCard = () => {
-  const ratingStars = ["star", "star", "star", "star", "star"];
+const NftCard = ({ image, title, price, distance, availability }) => {
+  const ratingStars = [
+    "/assets/images/star.png",
+    "/assets/images/star.png",
+    "/assets/images/star.png",
+    "/assets/images/star.png",
+    "/assets/images/star.png",
+  ];
 
   return (
     <div>
-      <img src="" alt="" />
+      <img src={image} alt="" />
       <div>
         <h3>{title}</h3>
         <strong>{price}</strong>
@@ -14,7 +19,7 @@ const NftCard = () => {
 
       <div>
         <span>{distance}</span>
-        <span>{availabilty}</span>
+        <span>{availability}</span>
       </div>
 
       <div>
