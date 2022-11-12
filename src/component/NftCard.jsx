@@ -10,7 +10,7 @@ const NftCard = ({ image, title, price, distance, availability }) => {
   ];
 
   return (
-    <div className="border border-[#D7D7D7] p-4 rounded-2xl text-xs">
+    <div className="border border-[#D7D7D7] p-2 sm:p-4 rounded-2xl text-xs">
       <div className="mb-4">
         <img
           src={image}

@@ -9,7 +9,7 @@ const Intro = () => {
           <span className="font-bold .bg-linear-gradient">Home</span> in the{" "}
           <span className="font-bold .bg-linear-gradient">Metaverse</span>
         </h1>
-        s
+
         <p className="text-base sm:text-xl xl:text-2xl mt-6 mb-8 md:mb-12 pr-[10px]">
           we provide you access to luxury and affordable houses in the
           metaverse, get a chance to turn your imagination to reality at your
