@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const NAV_ITEMS = [
@@ -36,9 +37,9 @@ const Header = () => {
       >
         <nav className="flex flex-col md:flex-row items-center gap-6 xl:gap-12 ">
           {NAV_ITEMS.map(({ title, path }, index) => (
-            <a href={path} key={index} className="md:text-xl">
+            <Link to={path} key={index} className="md:text-xl text-black">
               {title}
-            </a>
+            </Link>
           ))}
         </nav>
         <button className="w-1/2 mx-auto  text-sm mt-6 md:m-0 md:text-base md:w-auto md:px-4 lg:px-[26.5px] rounded-[10px] py-[14px] bg-linear-gradient">
