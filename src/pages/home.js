@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMetabnb from "../container/home/AboutMetabnb";
 import Adventure from "../container/home/Adventure";
 import Intro from "../container/home/Intro";
 import NftToken from "../container/home/NftToken";
@@ -10,6 +11,7 @@ const Home = () => {
       <Intro />
       <NftToken />
       <Adventure />
+      <AboutMetabnb />
     </PageLayout>
   );
 };

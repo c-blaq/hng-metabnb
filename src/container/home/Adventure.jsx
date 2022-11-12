@@ -4,7 +4,7 @@ import NftCard from "../../component/NftCard";
 
 const Adventure = () => {
   return (
-    <div className="my-8 sm:my-10 lg:mt-14 lg:mb-[53px] px-10 lg:px-20 xl:px-[100px]">
+    <div className="my-8 sm:my-10 lg:mt-14 lg:mb-[53px] px-8 lg:px-20 xl:px-[100px]">
       <h2 className="font-bold text-center mb-4 text-2xl sm:mb-6 sm:text-3xl md:text-4xl md:mb-7 lg:mb-11 lg:text-5xl">
         Inspiration for your next adventure
       </h2>
