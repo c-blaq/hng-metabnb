@@ -5,9 +5,14 @@ const Intro = () => {
     <section className="flex flex-col md:flex-row justify-between items-center mt-11 sm:mt-24 lg:mt-0 lg:pt-40 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
       <div className="lg:w-[55%]">
         <h1 className="text-3xl lg:text-[45px] xl:text-[56px] lg:!leading-[65px]">
-          Rent a <span className="font-bold">Place</span> away from{" "}
-          <span className="font-bold .bg-linear-gradient">Home</span> in the{" "}
-          <span className="font-bold .bg-linear-gradient">Metaverse</span>
+          Rent a <span className="text-primary font-bold">Place</span> away from{" "}
+          <span className="text-primary font-bold .bg-linear-gradient">
+            Home
+          </span>{" "}
+          in the{" "}
+          <span className="text-primary font-bold .bg-linear-gradient">
+            Metaverse
+          </span>
         </h1>
 
         <p className="text-base sm:text-xl xl:text-2xl mt-6 mb-8 md:mb-12 pr-[10px]">
