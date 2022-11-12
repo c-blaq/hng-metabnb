@@ -1,14 +1,11 @@
 import React from "react";
-import mbtokeLogo from "../../assets/images/mbtoken-logo.png";
-import metamaskLogo from "../../assets/images/metamask-logo.png";
-import openseaLogo from "../../assets/images/opensea-logo.png";
 
 const NftToken = () => {
   return (
     <div className="bg-linear-gradient flex justify-between px-2 sm;gap-6 md:gap-0 md:px-20 lg:pl-36 lg:pr-32 mt-24 py-2">
       <div className="flex items-center font-poppins">
         <img
-          src={mbtokeLogo}
+          src={"/assets/images/mbtoken-logo.png"}
           alt="metamask logo"
           className="w-9 h-9 sm:w-auto sm:h-auto"
         />
@@ -19,7 +16,7 @@ const NftToken = () => {
 
       <div className="flex items-center gap-1 sm:gap-3">
         <img
-          src={metamaskLogo}
+          src={"/assets/images/metamask-logo.png"}
           alt="metamask logo"
           className="w-5 h-5 sm:w-9 sm:h-9"
         />
@@ -30,7 +27,7 @@ const NftToken = () => {
 
       <div className="flex items-center gap-1 sm:gap-3 font-poppins">
         <img
-          src={openseaLogo}
+          src={"/assets/images/opensea-logo.png"}
           alt="metamask logo"
           className="w-5 h-5 sm:w-auto sm:h-auto"
         />

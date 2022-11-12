@@ -1,8 +1,4 @@
 import React from "react";
-import nft1 from "../../assets/images/nft-1.png";
-import nft2 from "../../assets/images/nft-2.png";
-import nft3 from "../../assets/images/nft-3.png";
-import nft4 from "../../assets/images/nft-4.png";
 
 const Intro = () => {
   return (
@@ -33,12 +29,28 @@ const Intro = () => {
 
       <div className="flex mt-12 md:mt-0 gap-2 md:w-1/2 lg:w-auto shrink-0 relative">
         <div className="flex flex-col gap-2 relative top-8 md:top-12">
-          <img src={nft1} alt="NFT" className="rounded-2xl" />
-          <img src={nft2} alt="NFT" className="rounded-2xl" />
+          <img
+            src={"/assets/images/nft-1.png"}
+            alt="NFT"
+            className="rounded-2xl"
+          />
+          <img
+            src={"/assets/images/nft-2.png"}
+            alt="NFT"
+            className="rounded-2xl"
+          />
         </div>
         <div className="flex flex-col gap-2 relative md:-top-16">
-          <img src={nft3} alt="NFT" className="rounded-2xl" />
-          <img src={nft4} alt="NFT" className="rounded-2xl" />
+          <img
+            src={"/assets/images/nft-3.png"}
+            alt="NFT"
+            className="rounded-2xl"
+          />
+          <img
+            src={"/assets/images/nft-4.png"}
+            alt="NFT"
+            className="rounded-2xl"
+          />
         </div>
       </div>
     </section>

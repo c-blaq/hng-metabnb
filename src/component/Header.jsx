@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import homeIcon from "../assets/images/icon-home.png";
-import metabnbLogo from "../assets/images/metabnb.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
@@ -16,12 +14,7 @@ const Header = () => {
     <header className="flex justify-between relative gap-2 lg:gap-0 items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
       <div className="flex items-end gap-[2px]">
         <img
-          src={homeIcon}
-          alt="home icon"
-          className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-9"
-        />
-        <img
-          src={metabnbLogo}
+          src={"/assets/images/metabnb-logo.png"}
           alt="metabnb Logo"
           className="h-4 sm:h-6 lg:h-8"
         />
