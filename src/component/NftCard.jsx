@@ -30,8 +30,8 @@ const NftCard = ({ image, title, price, distance, availability }) => {
       </div>
 
       <div className="flex items-center gap-2">
-        {ratingStars.map((star) => (
-          <img src={star} alt="ratings" />
+        {ratingStars.map((star, index) => (
+          <img src={star} key={index} alt="ratings" />
         ))}
       </div>
     </div>

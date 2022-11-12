@@ -35,8 +35,8 @@ const Header = () => {
         } md:flex md:items-center md:justify-evenly  md:flex-1 md:-mr-20 xl:-mr-44`}
       >
         <nav className="flex flex-col md:flex-row items-center gap-6 xl:gap-12 ">
-          {NAV_ITEMS.map(({ title, path }) => (
-            <a href={path} className="md:text-xl">
+          {NAV_ITEMS.map(({ title, path }, index) => (
+            <a href={path} key={index} className="md:text-xl">
               {title}
             </a>
           ))}

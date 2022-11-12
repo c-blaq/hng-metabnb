@@ -11,8 +11,9 @@ const Adventure = () => {
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {NFTS.slice(0, 8)
           .reverse()
-          .map(({ image, title, price, distance, availability }) => (
+          .map(({ image, title, price, distance, availability, id }) => (
             <NftCard
+              key={id}
               image={image}
               title={title}
               price={price}
