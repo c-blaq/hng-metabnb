@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center mt-11 sm:mt-24 lg:mt-0 lg:pt-40 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
+    <section className="flex flex-col text-black md:flex-row justify-between items-center mt-11 sm:mt-24 lg:mt-0 lg:pt-40 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
       <div className="lg:w-[55%]">
         <h1 className="text-3xl lg:text-[45px] xl:text-[56px] lg:!leading-[65px]">
           Rent a <span className="text-primary font-bold">Place</span> away from{" "}
@@ -15,7 +15,7 @@ const Intro = () => {
           </span>
         </h1>
 
-        <p className="text-base sm:text-xl xl:text-2xl mt-6 mb-8 md:mb-12 pr-[10px]">
+        <p className="text-base sm:text-xl xl:text-2xl leading-9 mt-6 mb-8 md:my-12 pr-[10px]">
           we provide you access to luxury and affordable houses in the
           metaverse, get a chance to turn your imagination to reality at your
           comfort zone

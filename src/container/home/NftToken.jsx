@@ -2,7 +2,7 @@ import React from "react";
 
 const NftToken = () => {
   return (
-    <div className="bg-linear-gradient flex justify-between px-2 sm;gap-6 md:gap-0 md:px-20 lg:pl-36 lg:pr-32 mt-24 py-2">
+    <div className="bg-linear-gradient flex justify-between px-2 sm:gap-6 md:gap-0 md:px-20 lg:pl-36 lg:pr-32 mt-24 py-2">
       <div className="flex items-center font-poppins">
         <img
           src={"/assets/images/mbtoken-logo.png"}
