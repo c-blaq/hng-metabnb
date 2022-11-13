@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Modal from "./Modal/Modal";
 
 const Header = () => {
   const NAV_ITEMS = [
@@ -12,7 +13,7 @@ const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="flex justify-between relative overflow-hidden gap-2 lg:gap-0 items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
+    <header className="flex justify-between relative md:overflow-hidden gap-2 lg:gap-0 items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
       <div className="flex items-end gap-[2px]">
         <img
           src={"/assets/images/metabnb-logo.png"}
@@ -45,6 +46,7 @@ const Header = () => {
         <button className="w-1/2 mx-auto text-sm mt-6 md:m-0 md:text-base md:w-auto md:px-4 lg:px-[26.5px] rounded-[10px] py-[14px] bg-linear-gradient">
           Connect wallet
         </button>
+        <Modal />
       </div>
     </header>
   );
