@@ -14,7 +14,11 @@ const Modal = ({ modalOpen, setModalOpen }) => {
     },
   ];
   return (
-    <div className="fixed bg-modalBg  z-[100] top-0 bottom-0 left-0 right-0 flex items-center justify-center">
+    <div
+      className={`fixed bg-modalBg transition duration-200 ease-in-out ${
+        modalOpen ? "opacity-1 z-[100]" : "opacity-0 -z-[100]"
+      }  top-0 bottom-0 left-0 right-0 flex items-center justify-center`}
+    >
       <div className="bg-white px-4 pb-6 md:px-8 sm:pb-8 rounded-2xl max-w-[600px] w-5/6 sm:w-7/12">
         <div className="flex justify-between items-center border-b border-[#CFD8DC] p-4 md:py-6 md:-mx-8 md:px-8">
           <h2 className="text-black font-bold md:text-2xl">Connect Wallet</h2>

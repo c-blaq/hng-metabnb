@@ -50,9 +50,8 @@ const Header = () => {
         >
           Connect wallet
         </button>
-        {modalOpen && (
-          <Modal modalOpen={modalOpen} setModalOpen={setModalOpen} />
-        )}
+
+        <Modal modalOpen={modalOpen} setModalOpen={setModalOpen} />
       </div>
     </header>
   );
