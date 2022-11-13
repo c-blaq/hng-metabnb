@@ -2,7 +2,7 @@ import React from "react";
 import { MdOutlineClose } from "react-icons/md";
 import { HiOutlineChevronRight } from "react-icons/hi";
 
-const Modal = () => {
+const Modal = ({ modalOpen, setModalOpen }) => {
   const MODAL_WALLETS = [
     {
       walletName: "Metamask",
@@ -18,7 +18,7 @@ const Modal = () => {
       <div className="bg-white px-4 pb-6 md:px-8 sm:pb-8 rounded-2xl max-w-[600px] w-5/6 sm:w-7/12">
         <div className="flex justify-between items-center border-b border-[#CFD8DC] p-4 md:py-6 md:-mx-8 md:px-8">
           <h2 className="text-black font-bold md:text-2xl">Connect Wallet</h2>
-          <MdOutlineClose />
+          <MdOutlineClose onClick={() => setModalOpen(!modalOpen)} />
         </div>
         <div className="mt-8">
           <h3>Choose your preferred wallet</h3>
