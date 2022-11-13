@@ -12,7 +12,7 @@ const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="flex justify-between relative gap-2 lg:gap-0 overflow-hidden items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
+    <header className="flex justify-between relative overflow-hidden gap-2 lg:gap-0 items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
       <div className="flex items-end gap-[2px]">
         <img
           src={"/assets/images/metabnb-logo.png"}
@@ -35,14 +35,14 @@ const Header = () => {
             : "hidden"
         } md:flex md:items-center md:justify-evenly  md:flex-1 md:-mr-20 xl:-mr-44`}
       >
-        <nav className="flex flex-col md:flex-row items-center gap-6 xl:gap-12 ">
+        <nav className="flex flex-col md:flex-row lg:text-xl text-black items-center gap-6 xl:gap-12 ">
           {NAV_ITEMS.map(({ title, path }, index) => (
-            <Link to={path} key={index} className="md:text-xl text-black">
+            <Link to={path} key={index}>
               {title}
             </Link>
           ))}
         </nav>
-        <button className="w-1/2 mx-auto  text-sm mt-6 md:m-0 md:text-base md:w-auto md:px-4 lg:px-[26.5px] rounded-[10px] py-[14px] bg-linear-gradient">
+        <button className="w-1/2 mx-auto text-sm mt-6 md:m-0 md:text-base md:w-auto md:px-4 lg:px-[26.5px] rounded-[10px] py-[14px] bg-linear-gradient">
           Connect wallet
         </button>
       </div>
