@@ -9,6 +9,9 @@ module.exports = {
         footerBg: " #1D1D1E",
         modalBg: "rgba(64, 64, 64, 0.3)",
       },
+      screens: {
+        xsm: "500px",
+      },
     },
   },
   plugins: [],
