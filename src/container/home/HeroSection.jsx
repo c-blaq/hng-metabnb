@@ -1,6 +1,6 @@
 import React from "react";
 
-const Intro = () => {
+const HeroSection = () => {
   return (
     <section className="flex flex-col text-black md:flex-row justify-between items-center mt-11 sm:mt-24 lg:mt-0 lg:pt-40 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
       <div className="lg:w-[55%]">
@@ -37,24 +37,24 @@ const Intro = () => {
           <img
             src={"/assets/images/nft-1.png"}
             alt="NFT"
-            className="rounded-2xl"
+            className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
           <img
             src={"/assets/images/nft-2.png"}
             alt="NFT"
-            className="rounded-2xl"
+            className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
         </div>
         <div className="flex flex-col gap-2 relative md:-top-16">
           <img
             src={"/assets/images/nft-3.png"}
             alt="NFT"
-            className="rounded-2xl"
+            className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
           <img
             src={"/assets/images/nft-4.png"}
             alt="NFT"
-            className="rounded-2xl"
+            className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
         </div>
       </div>
@@ -62,4 +62,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default HeroSection;

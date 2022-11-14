@@ -1,14 +1,14 @@
 import React from "react";
 import AboutMetabnb from "../container/home/AboutMetabnb";
 import Adventure from "../container/home/Adventure";
-import Intro from "../container/home/Intro";
+import HeroSection from "../container/home/HeroSection";
 import NftToken from "../container/home/NftToken";
 import PageLayout from "../layout/PageLayout";
 
 const Home = () => {
   return (
     <PageLayout>
-      <Intro />
+      <HeroSection />
       <NftToken />
       <Adventure />
       <AboutMetabnb />
