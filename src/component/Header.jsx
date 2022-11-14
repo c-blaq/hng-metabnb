@@ -14,14 +14,14 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   return (
-    <header className="flex justify-between relative md:overflow-hidden gap-2 lg:gap-0 items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
-      <div className="flex items-end gap-[2px]">
+    <header className="flex justify-between relative z-[200] md:overflow-hidden gap-2 lg:gap-0 items-center pt-5 sm:pt-8 lg:pt-11 px-4 sm:px-6 lg:px-20 xl:px-[100px]">
+      <Link to="/" className="flex items-end gap-[2px]">
         <img
           src={"/assets/images/metabnb-logo.png"}
           alt="metabnb Logo"
           className="h-4 sm:h-6 lg:h-8"
         />
-      </div>
+      </Link>
 
       <button
         className="block md:hidden text-2xl"

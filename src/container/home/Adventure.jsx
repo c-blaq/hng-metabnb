@@ -9,8 +9,8 @@ const Adventure = () => {
         Inspiration for your next adventure
       </h2>
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {NFTS.slice(0, 8)
-          .reverse()
+        {NFTS.reverse()
+          .slice(0, 8)
           .map(({ image, title, price, distance, availability, id }) => (
             <NftCard
               key={id}

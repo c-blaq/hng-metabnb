@@ -15,8 +15,8 @@ const Modal = ({ modalOpen, setModalOpen }) => {
   ];
   return (
     <div
-      className={`fixed bg-modalBg transition duration-200 ease-in-out ${
-        modalOpen ? "opacity-1 z-[100]" : "opacity-0 -z-[100]"
+      className={`fixed bg-modalBg transition duration-500 ease-in-out ${
+        modalOpen ? "opacity-1 z-[1000]" : "hidden"
       }  top-0 bottom-0 left-0 right-0 flex items-center justify-center`}
     >
       <div className="bg-white px-4 pb-6 md:px-8 sm:pb-8 rounded-2xl max-w-[600px] w-5/6 sm:w-7/12">

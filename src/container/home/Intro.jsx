@@ -15,7 +15,7 @@ const Intro = () => {
           </span>
         </h1>
 
-        <p className="text-base sm:text-xl xl:text-2xl leading-9 mt-6 mb-8 md:my-12 pr-[10px]">
+        <p className="text-base sm:text-xl xl:text-2xl leading-9 mt-6 mb-8 md:mt-10 md:mb-12 pr-[10px]">
           we provide you access to luxury and affordable houses in the
           metaverse, get a chance to turn your imagination to reality at your
           comfort zone
