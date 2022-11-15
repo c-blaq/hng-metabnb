@@ -21,7 +21,11 @@ const AboutMetabnb = () => {
       </div>
 
       <div className="w-full sm:w-1/2 xl:w-auto py-[100px]">
-        <img src="/assets/images/rotated.png" alt="" />
+        <img
+          src="/assets/images/rotated.png"
+          alt="rotated positioned nfts"
+          loading="lazy"
+        />
       </div>
     </div>
   );

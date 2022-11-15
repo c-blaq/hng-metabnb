@@ -37,11 +37,13 @@ const HeroSection = () => {
           <img
             src={"/assets/images/nft-1.png"}
             alt="NFT"
+            loading="lazy"
             className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
           <img
             src={"/assets/images/nft-2.png"}
             alt="NFT"
+            loading="lazy"
             className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
         </div>
@@ -49,11 +51,13 @@ const HeroSection = () => {
           <img
             src={"/assets/images/nft-3.png"}
             alt="NFT"
+            loading="lazy"
             className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
           <img
             src={"/assets/images/nft-4.png"}
             alt="NFT"
+            loading="lazy"
             className="lg:hover:scale-105 transition duration-500 rounded-2xl"
           />
         </div>
