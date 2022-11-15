@@ -16,6 +16,9 @@ const NftCard = ({ image, title, price, distance, availability }) => {
           src={image}
           alt={`${title} nft`}
           className="rounded-2xl object-cover w-full"
+          loading="lazy"
+          width={100}
+          height={100}
         />
       </div>
 
@@ -31,7 +34,7 @@ const NftCard = ({ image, title, price, distance, availability }) => {
 
       <div className="flex items-center gap-2">
         {ratingStars.map((star, index) => (
-          <img src={star} key={index} alt="ratings" loading="lazy" />
+          <img src={star} key={index} alt="ratings" />
         ))}
       </div>
     </div>
